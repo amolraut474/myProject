@@ -1,0 +1,591 @@
+body {
+    font-family: 'Muli', sans-serif;
+    font-size: 14px;
+    color: rgba(0, 0, 0, .87);
+    background: #f5f5f5;
+}
+
+.btn {
+    font-size: 13px;
+}
+
+::placeholder, .form-control, form label, label, .table td {
+    font-size: 12px !important
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.bg-light-blue{     background: #00b0eb1f}
+.bg-blue1{ }
+.navbar-brand img {
+    width: 210px;
+}
+
+p.sub-title {
+    color: #333;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.step1, .step2, .step3 {
+    border-radius: 50%;
+    border: 1px solid #bbb;
+    padding: 20px 8px;
+    background: #bbb;
+    color: #fff;
+}
+
+.sign-up-tabs .nav-link.active .step1, .sign-up-tabs .nav-link.active .step2, .sign-up-tabs .nav-link.active .step3 {
+    /* border:3px solid #00b0eb;*/
+    background-color: #00b0eb;
+    color: #fff;
+    border: none
+}
+
+.sign-up-tabs .nav-item {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+.sign-up-tabs .nav-item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.sign-up-tabs .nav-item:not(:last-child):after {
+    /* position:absolute;content:'';right:-50%;top:0%;width:50%;height:50%;border-bottom:2px solid #d2d0d0;*/
+    position: absolute;
+    content: '';
+    right: -17%;
+    top: 0%;
+    width: 17%;
+    height: 50%;
+    border-bottom: 2px solid #d2d0d0;
+}
+
+.sign-up-tabs .nav-tabs .nav-link.active {
+    border: none;
+    background: none;
+}
+
+.sign-up {
+    margin-top: 40px;
+}
+
+.sign-up .nav-tabs .nav-link:hover {
+    border-radius: 4px;
+    border: none;
+}
+
+.sign-up-tabs .nav-tabs .nav-link {
+    border: none
+}
+
+.employee-info .card-header, .employee-list-tabs .card-header, .sign-up-tabs .card-header, .tax-info .card-header, .settings .card-header, .tickets .card-header {
+    background: #00b0eb0f;
+}
+
+.tax-info .table.table-bordered th {
+    padding: 3px 7px;
+    font-size: 12px;
+}
+
+.tax-info .table.table-bordered td {
+    padding: 6px 7px;
+}
+
+.sign-up-tabs .nav-link.active {
+    font-weight: bold;
+    /* border-top:3px solid #00b0eb;*/
+}
+
+h1, h2, h3, h5, h6 {
+    font-weight: 400;
+    color: #4e73df;
+}
+
+span.user-info {
+    float: right;
+    vertical-align: middle;
+    font-size: 12px;
+}
+
+.font-16px {
+    font-size: 16px !important;
+}
+
+.custom-navbar.navbar {
+    padding: 0.3rem 1.5rem !important;
+    /* background:linear-gradient(to right,#00c5fb 0%,#0253cc 100%);*/
+    border-bottom: 1px solid transparent;
+    background: #00b0eb !important;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+    /* background:linear-gradient(to right,#ff9b44 0%,#e87435 100%);*/
+}
+
+.custom-navbar.navbar .navbar-nav .nav-link {
+    color: #fff !important
+}
+
+.custom-navbar .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    font-size: 15px;
+}
+
+.left-sidebar {
+      height:100vh; 
+}
+
+.left-sidebar .card {
+    border: none;
+    border-radius: 0
+}
+
+.left-sidebar .card-body {
+    background: #4e73df;
+    background: #045773 !important;
+}
+
+.left-sidebar .card-body a.nav-link {
+    color: #3c3c3c;
+}
+
+.left-sidebar .card-header:first-child {
+    border-radius: 0
+}
+
+.left-sidebar .card-body .nav {
+    background: #fff;
+    border-radius: 4px;
+}
+
+.left-sidebar .card-body a.nav-link:hover {
+    background: #eaecf4;
+    border-radius: 4px;
+}
+
+.left-sidebar .fa-angle-right {
+    position: relative;
+    top: 5px;
+}
+
+.left-sidebar .card {
+    border-radius: 0px;
+}
+
+.left-sidebar .card-link {
+    text-align: left;
+    color: #fff !important;
+    padding: 5px 0
+}
+
+.left-sidebar .heading {
+    color: #ccc;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding-left: 25px;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+.right-sidebar span.lead {
+    font-size: 1rem
+}
+
+.main-heading h3 {
+    font-size: 21px;
+    /* font-family:'Roboto',sans-serif;*/
+}
+
+.company-info .card-body .fa {
+    font-size: 54px;
+}
+
+.company-info .card-body .fa-industry {
+    color: blue
+}
+
+.company-info .card-body .fa-users {
+    color: #6011a2;
+}
+
+.company-info .card-body .fa-bug {
+    color: orange
+}
+
+.company-info .card-body .fa-ticket {
+    color: green
+}
+
+.abt-icon {
+    width: 80px;
+    height: 80px;
+    border: solid;
+    border-width: 3px;
+    border-top-color: #0087fc;
+    border-bottom-color: #00f0ac;
+    border-left-color: #00efac;
+    border-right-color: #0083ff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.search-emp-box .card-body label {
+    font-size: 12px !important;
+}
+
+.search-emp-box .form-control {
+    padding: 3px 6px;
+    height: auto;
+}
+
+.user-profile {
+    /* border:1px solid #ccc;border-radius:50%;padding:5px;background:#fff;font-weight:bold;*/
+    width: 30px;
+    height: 30px;
+    color: #333;
+    float: left;
+    margin-right: 10px;
+}
+
+.user-profile img {
+    border-radius: 20px;
+}
+
+.user-profile-box {
+    color: #fff
+}
+
+.custom-navbar .search-box {
+    border-radius: 20px;
+    /* height:35px;*/
+    font-size: 13px;
+    border: none;
+    padding: 0px 30px 0px 10px
+}
+
+.employee-list-tabs .search-box {
+    border: 1px solid #ddd !important
+}
+
+.employee-list-tabs .nav-link {
+    display: block;
+    padding: .2rem 1rem;
+}
+
+.pay-freq select.form-control {
+    border-radius: 20px;
+    font-size: 13px;
+}
+
+.payroll .fa-dollar {
+    font-size: 34px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    padding: 4px 13px;
+    border-radius: 50%;
+}
+
+.fa-gift {
+    font-size: 64px;
+}
+
+.card, .rounded-10px {
+    border-radius: 6px
+}
+
+.rounded-20px {
+    border-radius: 20px
+}
+
+.font-12px {
+    font-size: 12px;
+}
+
+.custom-navbar .navbar-brand {
+    font-family: monospace;
+    font-weight: bold;
+    color: #fff;
+}
+
+.navbar-brand .fa-dollar {
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+#piechart svg {
+    height: 351px;
+    width: 453px;
+}
+
+#piechart rect {
+    height: 306px;
+    width: 400px;
+}
+
+footer {
+    padding-top: 10px;
+    font-size: 12px;
+    /* border-top:1px solid #cccccc63;*/
+}
+
+footer a {
+    color: #868686;
+}
+
+.banner {
+    background: url(../images/banner.jpg) no-repeat;
+    color: #fff;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    background-size: cover
+}
+
+.banner a.btn {
+    border: 2px solid #fff;
+    font-size: 16px;
+}
+
+.how-works {}
+
+.font-normal {
+    font-weight: 100;
+}
+
+h1.welcome {
+    font-size: 54px;
+    color: #fff;
+}
+
+/* login */
+
+.user-icon, .lock-icon, .key-icon, .roles-icon {
+    position: absolute;
+    left: 10px;
+    top: 9px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+.form-login {
+    width: 100%;
+    max-width: 370px;
+    padding: 27px;
+    margin: 70px auto;
+    border-radius: 10px;
+}
+
+.form-login .form-control {
+    font-size: 14px;
+    color: #494949c2;
+    padding-left: 30px;
+}
+
+.form-login h4, .sign-up h4 {
+    font-size: 24px;
+    /* font-family:'Roboto',sans-serif;font-weight:bold;*/
+    color: #4e73df;
+}
+
+/* */
+
+.sign-up-tabs .card-header, .employee-list-tabs .card-header {
+    padding-bottom: 0px;
+}
+
+/* */
+
+.scrollable {
+    height: 365px;
+    overflow: auto;
+}
+
+.settings .scrollable {
+    height: 365px;
+    overflow: auto;
+}
+
+.employee-list-table .table td, .employee-list-table .table th, .settings-table .table td, .settings-table .table th, .tickets-table .table td, .tickets-table .table th, .employers-list-table .table td, .employers-list-table .table th, .pay-frequency-info .table td, .pay-frequency-info .table th {
+    padding: .45rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+    color: #494949c2;
+}
+
+.info-edit-icon {
+    font-size: 28px;
+}
+
+.date-icon {
+    top: 10px;
+    right: 9px;
+}
+
+.btn-blue {
+    background: #045773;
+}
+
+.bg-primary1 {
+    background: #00b0eb;
+}
+
+/* collapsible panel */
+
+.accordion-box .card-header .btn {
+    color: #fff;
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
+}
+
+.accordion-box .card-header .fa-angle-right, .accordion-box .card-header .fa-angle-down {
+    float: right;
+}
+
+.accordion-box .accordion .card-header .btn i {
+    font-size: 15px;
+}
+
+.left-sidebar, .left-sidebar .accordion-box .card-header {
+    /* background:#2d323e;background-color:#4e73df;background:#34444c;*/
+    background: #045773;
+}
+
+.left-sidebar .accordion-box .card-header {
+    padding: 0px 12px;
+}
+
+.left-sidebar .accordion-box .accordion .card .card-body {
+    padding: 0px 25px;
+}
+
+.subtype {
+    /* background:#fff;*/
+    border-radius: 5px;
+    padding: 10px 0px 10px 27px;
+    margin: 0px;
+}
+
+.subtype li {
+    margin-bottom: 7px;
+}
+
+.subtype li a {
+    color: #fff;
+    font-size: 12px;
+}
+
+.subtype li a:hover {
+    text-decoration: none;
+}
+
+.left-sidebar .accordion-box .btn-link:focus, .left-sidebar .accordion-box .btn-link:hover {
+    text-decoration: none;
+}
+
+/* collapsible panel */
+
+.nav-tabs {
+    border: none
+}
+
+.accordion1 {
+    /* background-color:#eee;*/
+    color: #444;
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    border: 1px solid #33333329;
+    margin-top: 1px;
+}
+
+.active1, .accordion1:hover {}
+
+.accordion1:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active1:after {
+    content: "\2212";
+}
+
+.panel {
+    padding: 0 10px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+ 
+.contact-us .fa {
+    color: #ff4a17;
+    font-size: 20px;
+}.fa-4x {
+    font-size: 4em !important;
+}
+
+.breadcrumb {
+    padding: .75rem 2rem;
+}
+.faq-example .card-header{ padding: 0px}
+.faq-example .card-header .btn{ display: block;}
+.faq-example .card-header .btn .fa-plus, .faq-example .card-header .btn .fa-minus{       margin-right: 15px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    padding: 2px;}
+/* */
+
+@media all and (max-width:575px) {
+    .mobile-margin {
+        margin-bottom: 10px;
+    }
+    .contact-us h1 {
+        font-size: 24px;
+    }
+    body {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width:767px) {
+    .step1, .step2, .step3 {
+        border-radius: 50%;
+        padding: 10px 4px;
+    }
+    .sign-up-tabs .nav-tabs {
+        justify-content: start !important;
+    }
+    .sign-up-tabs .nav-item {
+        margin-bottom: 10px;
+    }
+}
+
+@media all and (max-width:991px) {
+    h1.welcome {
+        font-size: 44px;
+    }
+}
+
+/* */
