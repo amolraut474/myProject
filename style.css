@@ -75,7 +75,7 @@ h4.small-title {
 
 nav.navbar {
     /* background: #182029; */
-    background-image: url(http://127.0.0.1:5500/breadcrumb_bg01.jpg);
+    background-image: url(./Images/breadcrumb_bg01.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     /* background-position: center center; */
@@ -88,7 +88,7 @@ nav.navbar {
 }
 .search-i::after{
     content: '';
-    background-image: url(./download.svg);
+    background-image: url(./Images/download.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 81px;
@@ -241,7 +241,7 @@ input[type="email"] {
   }
 /* banner slider css */
 .banner-section {
-    background-image: url('./breadcrumb_bg01.jpg');
+    background-image: url('./Images/breadcrumb_bg01.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -374,7 +374,7 @@ input[type="email"] {
 }
 
 .section-exprince {
-    background-image: url('./match_bg.jpg');
+    background-image: url('./Images/match_bg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -448,7 +448,7 @@ input[type="email"] {
 }
 
 .section-3-banner {
-    background-image: url('./video_bg.jpg');
+    background-image: url('./Images/video_bg.jpg');
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -469,7 +469,7 @@ input[type="email"] {
     top: 0;
     width: 100%;
     height: 100%;
-    background-image: url(./video_overlay.png);
+    background-image: url(./Images/video_overlay.png);
     background-position: center;
     background-size: cover;
     opacity: 0.38;
@@ -504,7 +504,7 @@ input[type="email"] {
 
 /* section-4 css */
 .section-4 {
-    background-image: url('./image-rote.png');
+    background-image: url('./Images/image-rote.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
