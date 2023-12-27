@@ -867,5 +867,7 @@ li.list-group-item {
     .section-exprince {
     padding-top: 0 !important;
 }
-
+.content-heading h3 {
+    font-size: 35px;
+}
 }
