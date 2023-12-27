@@ -852,6 +852,7 @@ li.list-group-item {
     .card-se {
     text-align: center;
     flex-direction: column;
+    padding: 15px 0px;
 }
 .emoji-img {
     justify-content: center !important;
@@ -863,4 +864,5 @@ li.list-group-item {
     font-size: 138px;
     color: #37be66;
 }
+
 }
