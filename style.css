@@ -870,4 +870,7 @@ li.list-group-item {
 .content-heading h3 {
     font-size: 35px;
 }
+    .content-box.content-box-2 {
+    width: 80%;
+}
 }
