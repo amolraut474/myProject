@@ -859,4 +859,8 @@ li.list-group-item {
     .card-img img {
     max-width: 138px;
 }
+    .card-img h2 {
+    font-size: 138px;
+    color: #37be66;
+}
 }
