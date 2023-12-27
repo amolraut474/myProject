@@ -856,4 +856,7 @@ li.list-group-item {
 .emoji-img {
     justify-content: center !important;
 }
+    .card-img img {
+    max-width: 138px;
+}
 }
