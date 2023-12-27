@@ -839,5 +839,8 @@ li.list-group-item {
     .play-h {
         font-size: 40px;
     }
+    .banner-contant span {
+    justify-content: center !important;
+}
 }
   
