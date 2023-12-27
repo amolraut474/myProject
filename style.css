@@ -853,8 +853,7 @@ li.list-group-item {
     text-align: center;
     flex-direction: column;
 }
-    .emoji-img{
- justify-content: center !important;
-        
+.emoji-img {
+    justify-content: center !important;
 }
 }
