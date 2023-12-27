@@ -851,6 +851,7 @@ li.list-group-item {
 }
     .card-se {
     text-align: center;
+    flex-direction: column;
 }
 }
   
