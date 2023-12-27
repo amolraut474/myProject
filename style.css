@@ -871,6 +871,6 @@ li.list-group-item {
     font-size: 35px;
 }
     .content-box.content-box-2 {
-    width: 80%;
+   padding: 0px 30px;
 }
 }
