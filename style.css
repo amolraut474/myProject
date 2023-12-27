@@ -882,4 +882,7 @@ li.list-group-item {
     .copy {
     font-size: 12px;
     }
+    .footer-row{
+        gap:25px;
+}
 }
