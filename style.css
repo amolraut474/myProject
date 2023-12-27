@@ -876,4 +876,7 @@ li.list-group-item {
     .footer {
     padding: 30px 30px;
 }
+    .footer-last {
+    padding: 15px 30px;
+}
 }
