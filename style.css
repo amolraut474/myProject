@@ -854,7 +854,7 @@ li.list-group-item {
     flex-direction: column;
 }
     .emoji-img{
- justify-content: center;
+ justify-content: center !important;
         
 }
 }
