@@ -879,4 +879,7 @@ li.list-group-item {
     .footer-last {
     padding: 15px 30px;
 }
+    .copy {
+    font-size: 12px;
+    }
 }
