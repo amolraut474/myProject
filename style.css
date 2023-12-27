@@ -864,5 +864,8 @@ li.list-group-item {
     font-size: 138px;
     color: #37be66;
 }
+    .section-exprince {
+    padding-top: 0 !important;
+}
 
 }
